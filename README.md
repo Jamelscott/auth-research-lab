@@ -26,12 +26,36 @@ Fork and clone this repository and answer the questions as you research directly
 7. *Encoding, encryption and hashing* along with the uses for and differences between the three
 8. *oAuth* (pronounced oh-Auth)
 
+#### Personal Answers
+1.  The process of identifying and verifying a person or system. (the who)
+2.  A process by which a server determines if the client has permission to use a resource or file. (the what)
+3.  Authentication is determining who you are. Authorization is determining what you are allowed to do.
+5.  Tokens are managed on the client. Sessions are managed on the server.
+6.  When clients make an initial request, sending authentication data, the server may validate it. Instead of saving the user data, it send back a token. it is required that hte client send back that jwt token with each new request. 
+7.  Encoding is easily reversable and used to ensure integrity and usability of data. It is not used to protext  or secure data because it is easy to reverse.
+7.  Encryption involves the process of transforming data so that it is unreadable by anyone who does not have a decryption key. (disguise)
+7.  Hashing cannot be reverse or decrypted. It is most often used to check two hashes for exact similarity. Recommended authentication process. salted passwords.
+8.  Provides access to small amount of data from oauth sites to determine user credentials
+
+
+#### Class answers
+1. 
+
 #### Explore and then describe the following npm packages:
 
 1. [bcrypt](https://www.npmjs.com/package/bcrypt)
 2. [jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken)
 3. [passport](https://www.npmjs.com/package/passport)
     * also describe what a *strategy* is in the context of this npm package
+
+
+#### Personal Answers
+
+
+#### Class answers
+1. an npm package that provides a hashing function
+2. an npm package that allows the creation of json web tokens. 
+3. all in one package for authentication
 
 ---
 
